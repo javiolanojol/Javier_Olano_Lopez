@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6007eb9b3d64092f342b171c"
+  },
+  "img_url": "../img/categories/tapas.svg",
+  "img_alt": "Tapas",
+  "name": "Tapas"
+},{
+  "_id": {
+    "$oid": "6007ebda3d64092f342b171d"
+  },
+  "img_url": "../img/categories/breakfast.svg",
+  "img_alt": "Desayunos",
+  "name": "Desayunos"
+},{
+  "_id": {
+    "$oid": "6007ed2b3d64092f342b171e"
+  },
+  "img_url": "../img/categories/ensalada.svg",
+  "img_alt": "Ensaladas",
+  "name": "Ensaladas"
+},{
+  "_id": {
+    "$oid": "6007ed2b3d64092f342b171f"
+  },
+  "img_url": "../img/categories/fastfood.svg",
+  "img_alt": "Almuerzos",
+  "name": "Almuerzos"
+},{
+  "_id": {
+    "$oid": "6007ed2b3d64092f342b1720"
+  },
+  "img_url": "../img/categories/dinner.svg",
+  "img_alt": "Cenas",
+  "name": "Cenas"
+},{
+  "_id": {
+    "$oid": "6007ed2b3d64092f342b1721"
+  },
+  "img_url": "../img/categories/dessert.svg",
+  "img_alt": "Postres",
+  "name": "Postres"
+},{
+  "_id": {
+    "$oid": "6007ed2b3d64092f342b1722"
+  },
+  "img_url": "../img/categories/bebidas.svg",
+  "img_alt": "Bebidas",
+  "name": "Bebidas"
+}]

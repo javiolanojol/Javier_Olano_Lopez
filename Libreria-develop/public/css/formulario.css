@@ -1,0 +1,91 @@
+article{
+    grid-column: 3/7;
+    grid-row: 2;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 1rem;  
+}
+article form{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap:1rem;
+    padding: 1rem ;
+}
+article form input{
+    border: none;
+    border-radius: 6px;
+    height: 35px;
+    width: 250px;
+    margin-top: 8px;
+    padding: 0 10px;
+    border: 1px solid #f96e58;
+}
+article form input[type="submit"]{
+    background-color: #f96e58;
+    color: white;
+}
+article form label{
+    margin: 1rem 0;
+}
+
+.colIzquierda{
+    grid-column: 1/2;
+}
+.colIzquierda input{
+    width: 100%;
+}
+.colDerecha{
+    grid-column: 2/3;
+    justify-self: end;
+}
+
+.formCol input, .formCol label{
+    display:block;
+}
+
+.preview{
+    width: 10rem;
+    height: 10rem;
+    position: relative; 
+    overflow: hidden;  
+}
+.preview img{
+    width: 100%;
+}
+
+article a{
+    text-decoration: none;
+    background-color: #C4C4C4;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: black;
+}
+
+.tab {
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-end;
+    border-bottom: 3px solid#f96e58;
+    margin-bottom: 1rem;
+}
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.tab button:hover {
+    background-color: #ccc;
+}
+.tab button.active {
+    background-color:#f96e58;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    margin-top: 1rem;
+}
+.hidden{
+    display: none;
+}

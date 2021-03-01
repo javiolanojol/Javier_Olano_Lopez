@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "600838863d64092f342b1724"
+  },
+  "img_url": "../img/meals/desayuno01.jpg",
+  "img_alt": "Desayuno de la Casa",
+  "price": 15,
+  "name": "Desayuno de la Casa",
+  "description": "Huevos, pancakes y tocino",
+  "qty": 0,
+  "category": "Desayunos"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b1725"
+  },
+  "img_url": "../img/meals/ensalada01.jpg",
+  "img_alt": "Ensalada César",
+  "price": 12,
+  "name": "Ensalada César",
+  "description": "Con salsa Ranch",
+  "qty": 0,
+  "category": "Ensaladas"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b1726"
+  },
+  "img_url": "../img/meals/macarrones.jpg",
+  "img_alt": "Macarrones con queso",
+  "price": 8,
+  "name": "Macarrones con queso",
+  "description": "Con queso parmesano",
+  "qty": 0,
+  "category": "Almuerzos"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b1727"
+  },
+  "img_url": "../img/meals/Hamburguesa.jpg",
+  "img_alt": "Hamburguesa clasica",
+  "price": 9,
+  "name": "Hamburguesa Clásica",
+  "description": "Con queso cheddar",
+  "qty": 0,
+  "category": "Almuerzos"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b1728"
+  },
+  "img_url": "../img/meals/pollo.jpg",
+  "img_alt": "Pollo Asado",
+  "price": 8,
+  "name": "Pollo Asado",
+  "description": "Con papas fritas",
+  "qty": 0,
+  "category": "Almuerzos"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b1729"
+  },
+  "img_url": "../img/meals/pizza.jpg",
+  "img_alt": "Pizza Margarita",
+  "price": 5,
+  "name": "Pizza Margarita",
+  "description": "Tomate, mozzarella y albahaca",
+  "qty": 0,
+  "category": "Almuerzos"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b172a"
+  },
+  "img_url": "../img/meals/pescado.jpg",
+  "img_alt": "Pescado a la plancha",
+  "price": 20,
+  "name": "Pescado a la plancha",
+  "description": "Pescado de temporada y verduras",
+  "qty": 0,
+  "category": "Cenas"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b172b"
+  },
+  "img_url": "../img/meals/pieLimon.jpg",
+  "img_alt": "Pie de Limón",
+  "price": 5,
+  "name": "Pie de Limón",
+  "description": "De la casa",
+  "qty": 0,
+  "category": "Postres"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b172c"
+  },
+  "img_url": "../img/meals/cheesecake.jpg",
+  "img_alt": "Cheesecake",
+  "price": 5,
+  "name": "Cheesecake",
+  "description": "Con frutos rojos",
+  "qty": 0,
+  "category": "Postres"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b172d"
+  },
+  "img_url": "../img/meals/vinoTinto.jpg",
+  "img_alt": "Vino Tinto",
+  "price": 3.5,
+  "name": "Vino Tinto",
+  "description": "De la casa",
+  "qty": 0,
+  "category": "Bebidas"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b172e"
+  },
+  "img_url": "../img/meals/vinoBlanco.jpg",
+  "img_alt": "Vino Blanco",
+  "price": 3.5,
+  "name": "Vino Blanco",
+  "description": "De la casa",
+  "qty": 0,
+  "category": "Bebidas"
+},{
+  "_id": {
+    "$oid": "600838863d64092f342b172f"
+  },
+  "img_url": "../img/meals/cerveza.jpg",
+  "img_alt": "Cerveza",
+  "price": 2.5,
+  "name": "Cerveza",
+  "description": "De la casa",
+  "qty": 0,
+  "category": "Bebidas"
+}]

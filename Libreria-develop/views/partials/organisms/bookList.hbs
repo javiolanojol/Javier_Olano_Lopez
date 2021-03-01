@@ -1,0 +1,12 @@
+{{>atoms/book/title_book_list}}
+<ul  id="listaLibros">
+    {{#each bookList}}
+        
+        <li>
+
+            <a href="/bookShow/{{this._id}}">{{>molecules/book/book}}</a>
+
+        </li>
+        
+    {{/each}} 
+</ul>

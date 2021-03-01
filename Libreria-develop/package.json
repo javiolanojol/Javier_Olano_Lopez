@@ -1,0 +1,29 @@
+{
+  "name": "libreria",
+  "version": "1.0.0",
+  "description": "paquete de administracion de nuestra libreria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "author": "refineriaF12",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "5.2.0",
+    "mongoose": "^5.11.11"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refineriaf12/Libreria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/refineriaf12/Libreria/issues"
+  },
+  "homepage": "https://github.com/refineriaf12/Libreria#readme"
+}

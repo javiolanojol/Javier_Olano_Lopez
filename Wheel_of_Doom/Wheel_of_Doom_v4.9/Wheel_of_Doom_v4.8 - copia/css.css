@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+:root{
+    --fuente1: 'Press Start 2P', cursive;
+    --botonMatar:url(img/boton01.png);
+    --botonRevivir:url(img/boton03.png);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+#nigromante{
+    display: none;
+}
+
+figure{
+
+    display: inline;
+
+}
+
+header p{
+
+    text-align: center;
+    visibility: hidden;
+    color: crimson;
+    margin-top: 1vh;
+
+}
+
+#muertos{
+
+    grid-column-end:span 2 ;
+
+}
+
+#elegido{
+
+    color: crimson;
+    text-align: center;
+    visibility: hidden;
+
+}
+
+
+body{
+    background-image: url(img/background01.jpg);
+    background-size: cover;
+    color:#ffffff;
+    font-family: var(--fuente1);
+    }
+
+h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+main{
+    height: calc(85vh - 70px);
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 800px) {    
+                 
+    main{grid-template-columns: auto;} 
+         
+    #izquierda{order: 2;
+    margin-top: 50px;}
+
+    footer{
+        display: none;
+    }
+
+  }
+
+ @media (max-width: 380px) {    
+                 
+    #lista{
+    column-count: 1 !important;
+    }
+    
+    footer{
+        display: none;
+    }
+
+  }
+
+#izquierda, #derecha{
+    place-self: center;
+    text-align: center;
+}
+
+#lista{
+    list-style:none;
+    line-height: 2em;
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px solid #fff;
+    text-align: center;
+}
+
+
+button{
+
+
+    font-family: var(--fuente1);
+    color: #fff;
+}
+
+#matar{
+    height: 60px;
+    width: 300px;
+    background: var(--botonMatar);
+    background-size: 100%;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor: pointer;
+}
+
+#revivir{
+    background: var(--botonRevivir);
+    background-size: 100%;
+    height: 60px;
+    width: 300px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor: pointer;
+}
+
+footer ul li{
+    float: left;
+    padding: 15px;
+    list-style: none;
+    font-size: xx-small;
+
+}
+
+.animacionNigromante{
+    position: relative;
+    animation-name: nigromante;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+@keyframes nigromante{
+
+        0%{
+            top: 0;
+            bottom: 0;
+        }
+        25%{
+            top: 1vh;
+            bottom: 0;
+        }    
+        50%{
+            top: 3vh;
+            bottom: 0;  
+        }
+        75%{
+            top: 1vh;
+            bottom: 0;
+        }
+        100%{
+            top: 0;
+            bottom: 0;
+            
+        }
+}
+

@@ -1,0 +1,27 @@
+<main>           
+    <% for(let i = 0; i < meals.length; i++) {%>
+    <% let meal = meals[i];%>
+    <article>           
+        <img src="<%= meal.img_url%>" alt="<%= meal.img_alt%>">
+        <div class="plato-info">
+            <p class="precio"><%= meal.price%> &euro;</p>
+            <h5><%= meal.name%></h5>
+            <p class="descripcion-plato"><%= meal.description%></p>
+        </div>
+        <div class="contadores">
+
+            <form action="/add_to_cart/<%= meal._id%>" method="post">
+                <button class="contador resta" type="button">&#45;</button>
+                <label for="qty"></label>
+                <input type="text" class="conta-cantidad" name="qty" value="0" min="0"/>
+            
+                <button class="contador suma" type="button">&#43;</button>
+            
+                <input class="importe" type="submit" value="Pedir"/>
+
+            </form>
+
+        </div>
+    </article>
+    <% } %>            
+</main>

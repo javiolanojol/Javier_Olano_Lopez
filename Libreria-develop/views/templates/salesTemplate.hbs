@@ -1,0 +1,14 @@
+{{>organisms/navbar}}
+<ul>
+    {{#each salesList}}
+        <li>
+
+            <p>{{this._id}}</p>
+            <p>{{this.product_id}}</p>
+            <p>{{this.import}}</p>
+            <p>{{this.date}}</p>
+
+        </li>
+    {{/each}}
+
+</ul>

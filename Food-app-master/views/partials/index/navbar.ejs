@@ -1,0 +1,13 @@
+<nav class="navTop">    
+    <% for(let i = 0; i < categories.length; i++) {%> 
+        <% let element = categories[i];%>          
+        <button class="botones-menu">
+            <a href="/find_meals/<%= element.name%>">
+                <figure>
+                    <img src="<%= element.img_url%>" alt="<%= element.img_alt%>">
+                    <figcaption><p><%= element.name%></p></figcaption>
+                </figure>
+            </a>
+        </button>            
+    <% } %>
+</nav>

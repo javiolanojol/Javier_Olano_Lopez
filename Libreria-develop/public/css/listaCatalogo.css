@@ -1,0 +1,63 @@
+#listaLibros{
+    grid-column: 3/7;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:1rem;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 1rem 0;
+    justify-items: center;
+}
+#listaLibros figure{
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+#listaLibros img{
+    width:100%;
+}
+#listaLibros a p{
+    margin: 1rem;
+}
+
+#listaDiscos{
+    grid-column: 3/7;
+    grid-row: 2;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:1rem;
+    background-color: rgb(255, 255, 255, 0.9);
+    padding: 1rem 0;
+    justify-items: center;
+}
+#listaDiscos figure{
+    width: 10vw;
+    height: 10vw;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+#listaDiscos img{
+    width:100%;
+}
+#listaDiscos a p{
+    margin: 1rem;
+}
+#listaDiscos li, #listaLibros li{
+    justify-content: center;
+    text-align: center;
+}
+
+.main-home .home-bookList #listaLibros, .main-home .home-discList #listaDiscos{
+    grid-column: 1/9;
+}
+
+.listaLibrosTitulo{
+    grid-column: 3/7;
+    text-align: center;
+}
+.listaDiscosTitulo{
+    grid-column: 3/7;
+    text-align: center;
+}
+

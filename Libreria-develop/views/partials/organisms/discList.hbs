@@ -1,0 +1,15 @@
+{{>atoms/disc/title_disc_list}}
+<ul id="listaDiscos">
+    {{#each discList}}
+        
+        <li>
+
+            <a href="/discShow/{{this._id}}">{{>molecules/disc/disc}}</a>
+
+        </li>
+        
+    {{/each}} 
+</ul>
+
+
+

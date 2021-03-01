@@ -1,0 +1,59 @@
+header{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    margin: 0px 10px;
+    
+}
+
+header img{
+    grid-area:	1 / 2 / 3 / 3
+}
+
+
+.navTop {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin: 40px 0px;
+    
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    filter: var(--sombras);
+    background-color: white;
+    align-self: center;
+    margin: 10px;
+    padding: 0px 15px 0 0;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.plato-info, .contadores {
+    align-self: center;
+}
+
+article img {
+    width: 28vw;
+    height: 28vw;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.navFooter ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    filter: drop-shadow(0px -5px 10px #B4B4B4);
+}
+
+.li-pedir{
+    top: -87%;
+    position: absolute;
+}

@@ -1,0 +1,20 @@
+<article>
+
+    {{>molecules/forms/tabs}}
+    {{>atoms/forms/back}}
+
+    {{>organisms/forms/new_book}}
+    {{>organisms/forms/new_disc}}
+
+   {{#with bookReq}}
+    {{>organisms/forms/edit_book}}
+    {{>atoms/forms/delete_book}}
+   {{/with}}
+
+   {{#with discReq}}
+    {{>organisms/forms/edit_disc}}
+    {{>atoms/forms/delete_disc}}
+   {{/with}}
+
+   
+</article>

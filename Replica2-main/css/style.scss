@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap%27');
+
+
+@mixin animacion{
+    -webkit-animation-name: fadeInLeftBig;
+    animation-name: fadeInLeftBig;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInLeftBig {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+}
+
+
+
+
+$texto-blanco: white; 
+$fondo-gris: #EEEEEE;
+$color-boton:linear-gradient(90deg, rgba(247,107,28,1) 0%, rgba(250,217,97,1) 100%);
+$boton-gris:#D8D8D8;
+$boton-gris-oscuro:#9B9B9B;
+
+body{
+   display: grid;
+   grid-template-rows:0.3fr 1fr 0.1fr;
+   font-family: 'Open Sans', sans-serif;;
+}
+
+header{
+    background-image: url("../img/Background_image_edited.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:$texto-blanco;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+    figure{
+        height: 10%;
+        padding: 50px 0 0 80px;
+        
+        img{
+            width: 10em;
+        }  
+
+    }
+    nav {
+        height: 10%;
+        padding: 50px 80px 0 0;
+        
+        ul{
+            display:flex;
+            
+            li{
+                padding:0 20px;
+            }
+        }
+    }
+    section{
+        width:100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 100px 0 180px 80px;
+        margin-top:30px;
+        h1{
+            font-size: 45px;
+            font-weight: 500;
+        }
+
+        h2{
+            font-size: 40px;
+            font-weight: 500;
+        }
+    }
+}
+
+%enlacebtn{
+    text-decoration: none;
+    color:inherit;
+    background: $color-boton;
+    padding: 20px 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+    width: fit-content;
+}
+
+
+main{
+   
+    .banner{
+        background-color: $fondo-gris;
+        padding: 30px;
+        display: flex;
+        justify-content: space-evenly;
+       
+        p{
+            padding: 15px 20px;
+            font-size: 25px;
+        }
+        a{
+            @extend %enlacebtn
+        }
+    }
+}
+
+.departamentos{
+    display: flex;
+    justify-content: center;
+
+    section{
+        width:20%;
+        margin: 80px 45px ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        figure{
+            align-self:center;
+            
+            img{
+                width:3em;
+            }
+        }
+
+        h3 {
+          font-weight: 300;
+          font-size: 27px ;
+          align-self:center;
+          margin-left: 15px;
+        }
+
+        p {
+          font-size: 19px;
+          margin-top: 30px ;
+          text-align: center;
+          width: 100%;
+        
+        }
+    }
+}
+.carrusel{
+    display:flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+
+    .tarjeta{
+        @include animacion();
+        border-radius: 25px;
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.50);
+        width: 40%;
+        padding: 50px;
+
+        h1{
+            font-weight: 300;
+            font-size: 27px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .autor{
+            display: flex;
+            margin-left: 60px;
+            img{
+                width: 50px;
+                border-radius: 50%;
+                box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.50);
+            }
+            figcaption{
+                margin-left: 15px;
+                align-self: center;
+                span{
+                    color:$boton-gris-oscuro;
+                }
+            }
+        }
+        .contenidotarjeta{
+            display: flex;
+            margin-bottom: 30px;
+            
+            figure{
+                                img{
+                    width: 3em;
+                }
+            }
+            p{
+                margin-left: 15px;
+                      
+            }
+        }
+    }
+    .botones{
+            display: flex;
+            justify-content: center;
+        button{
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            border: none;
+            background-color:$boton-gris ;
+            margin: 30px 5px 60px 5px;
+        }  
+    }
+    a{
+        @extend %enlacebtn;
+        margin-bottom: 60px;
+        align-self: center;
+    }
+}
+
+footer {
+    background-color: $fondo-gris;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+
+    p{
+        display: flex;
+        align-self:center;
+        font-size: 20px;
+        
+    }
+
+}
+
+

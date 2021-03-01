@@ -1,0 +1,10 @@
+{{>organisms/navBar}}
+<main>
+    <section>
+        {{#if decision}}
+            {{>organisms/bookList}}
+        {{else}}
+            {{>organisms/discList}}
+        {{/if}}
+    </section>
+</main>

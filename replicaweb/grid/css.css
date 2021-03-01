@@ -1,0 +1,34 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: grid;
+    background-color: aqua;
+    grid-template-areas: 'header header header header header';
+    grid-template-areas: 'main main main main main';
+
+}
+
+header{
+
+    grid-area: header;
+    background-color: grey;
+
+}
+
+aside{}
+
+main{
+
+    grid-area: main;
+    background-color: hotpink;
+
+}
+
+footer{}

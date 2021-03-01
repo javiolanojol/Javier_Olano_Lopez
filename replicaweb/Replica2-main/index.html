@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
+    <script src="js/functions.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="img/logo.png" alt="smart seo">
+        </figure>
+        
+        <nav id="list-nav">
+
+        </nav>
+
+        <section>
+            <h1>THE BEST SEO AGENCY EVER</h1>
+            <h2>Your business is always safe in our hands</h2>
+        </section>
+    </header>
+    <main>
+        <section class="banner">
+            <p>
+                Driving Revenue through SEO and PPC for Brands & SMEs.
+            </p>
+            <a href="#">
+                GET YOUR RESULTS
+            </a>
+        </section>
+        <section class="departamentos">
+            <section>
+                <figure>
+                    <img src="img/icon_seo.png" alt="">
+                </figure>
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor sit amet, ei sea euripidis philosophia, pri ullum dicit eu, sit in scripta efficiendi. Dicunt inimicus</p>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/icon_webdesign.png" alt="">
+                </figure>
+                <h3>WEB DESIGN</h3>
+                <p>Lorem ipsum dolor sit amet, ei sea euripidis philosophia, pri ullum dicit eu, sit in scripta. Dicunt inimicus. curry and code</p>
+            </section>
+            <section>
+                <figure>
+                    <img src="img/icon_ppc.png" alt="">
+                </figure>
+                <h3>PPC</h3>
+                <p>Lorem ipsum dolor sit amet, ei sea euripidis philosophia, pri ullum dicit eu, sit in scripta.Dicunt inimicus.
+                </p>
+            </section>
+        </section>
+        <section class="carrusel">
+            <section class="tarjeta">
+                <h1>
+                    WHAT OUR CLIENTS ARE SAYING
+                </h1>
+                <section class="contenidotarjeta">
+                    <figure>
+                        <img src="img/quotation.png" alt="">
+                    </figure>
+                    <p>I appreciate lorem ipsum dolor sit amet, ei sea euripidis philosophia, pri ullum dicit eu, sit in scripta efficiendi. Dicunt inimicus. Lorem ipsum dolor sit amet.</p>
+                </section>
+                <figure class="autor">
+                    <img src="img/foto carnet.png" alt="">
+                    <figcaption>Jim P.<br><span>Cook</span></figcaption>
+                </figure>
+            </section>
+            <section class="botones">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </section>
+            <a class="botoncontacto" href="">GET IN TOUCH</a>
+        </section>
+
+    </main>
+    <footer>
+        <p>@2018 Smart SEO, All rights reserved.</p>
+    </footer>
+
+    <script type="text/x-handlebars-template" id="template-nav">
+
+        <ul>
+            {{#each options}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>  
+
+    </script>
+
+
+</body>
+</html>

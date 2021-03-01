@@ -1,0 +1,155 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    --fondo:url(images/fondo_css.png);
+    --color:rgb(41, 40, 40);
+    --tipografia: Verdana, Geneva, Tahoma, sans-serif;
+    --destacado: bold;
+    
+
+}
+
+a{
+
+    text-decoration: none;
+    color: var(--color);
+    
+
+}
+
+nav{
+
+    float: right;
+    background-color: rgb(218, 218, 218);
+    margin: 10px;
+    font-family: var(--tipografia);
+    
+    
+
+}
+
+header{
+
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+li{
+
+    float: right;
+    margin-right: 10px;
+    list-style: none;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+main{
+
+    clear: both;
+    margin-top: 165px;
+    margin-bottom: 165px;
+
+}
+
+.sub section{
+
+    display: inline;
+
+}
+
+
+
+.icono img{
+
+    width: 20px;
+    height: 20px;
+    
+
+}
+
+#logoEmpresa{
+
+    display: inline;
+    margin-bottom: 100px;
+    
+
+}
+
+main p{
+
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    margin-left: 50px;
+    font-family: var(--tipografia);
+    font-weight: var(--destacado);
+
+}
+
+main p span{
+
+    color:var(--color);
+
+}
+
+button{
+
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: var(--tipografia);
+    font-weight: var(--destacado);
+    
+
+}
+
+body{
+
+    background-image: var(--fondo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+.sub{
+
+    float: left;
+    margin-right: 10%;
+    color: blanchedalmond;
+    margin-left: 50px;
+
+}
+
+.sub section{
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    float: left;
+
+}
+
+footer{
+
+    background-color:var(--color);
+    font-family: var(--tipografia);
+
+}
+
+
+#tope{
+
+    clear: both;
+
+}

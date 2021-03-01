@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5fdb38f05ecae537bc80940e"
+  },
+  "title": "Appetite for Destruction",
+  "author": "Guns'n Roses",
+  "stock": 40,
+  "price": 99.99,
+  "genre": "Hard rock",
+  "img_url": "../img/appetite.jpg",
+  "label_publisher": "Geffen",
+  "img_alt": "caratula del disco Appetite for Destruction"
+},{
+  "_id": {
+    "$oid": "5fe1dd92a7b34343f0ba8ea3"
+  },
+  "title": "Stadium arcadium",
+  "author": "Red hot Chilli peppers",
+  "stock": 50,
+  "price": 20.5,
+  "genre": "Rock alternativo",
+  "img_alt": "portada del disco Stadium Arcadium",
+  "img_url": "../img/stadium.jpg",
+  "label_publisher": "Ni idea"
+},{
+  "_id": {
+    "$oid": "5fe1dd9ea7b34343f0ba8ea4"
+  },
+  "title": "Appetite for Destruction",
+  "author": "Guns'n Roses",
+  "stock": 40,
+  "price": 99.99,
+  "genre": "Hard rock",
+  "img_url": "../img/appetite.jpg",
+  "label_publisher": "Geffen",
+  "img_alt": "caratula del disco Appetite for Destruction"
+},{
+  "_id": {
+    "$oid": "5fe1dda1a7b34343f0ba8ea5"
+  },
+  "title": "Stadium arcadium",
+  "author": "Red hot Chilli peppers",
+  "stock": 50,
+  "price": 20.5,
+  "genre": "Rock alternativo",
+  "img_alt": "portada del disco Stadium Arcadium",
+  "img_url": "../img/stadium.jpg",
+  "label_publisher": "Ni idea"
+},{
+  "_id": {
+    "$oid": "5fe1dda4a7b34343f0ba8ea6"
+  },
+  "title": "Appetite for Destruction",
+  "author": "Guns'n Roses",
+  "stock": 40,
+  "price": 99.99,
+  "genre": "Hard rock",
+  "img_url": "../img/appetite.jpg",
+  "label_publisher": "Geffen",
+  "img_alt": "caratula del disco Appetite for Destruction"
+},{
+  "_id": {
+    "$oid": "5fe1dda6a7b34343f0ba8ea7"
+  },
+  "title": "Stadium arcadium",
+  "author": "Red hot Chilli peppers",
+  "stock": 50,
+  "price": 20.5,
+  "genre": "Rock alternativo",
+  "img_alt": "portada del disco Stadium Arcadium",
+  "img_url": "../img/stadium.jpg",
+  "label_publisher": "Ni idea"
+}]

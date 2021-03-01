@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+@import url("navBar.css");
+@import url("listaCatalogo.css");
+@import url("formulario.css");
+@import url("login.css");
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+body{
+    background-image: url("https://static3.elcorreo.com/www/multimedia/201907/22/media/cortadas/alfombra-pvc-discos-vinilos1-kWvC-U80815105344o8D-1248x770@El%20Correo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.main-home{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 1rem;
+}
+.main-home .home-bookList{
+  grid-column: 2/6;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-content:center;
+  height:90vh;
+  grid-gap: 1rem;
+}
+.main-home .home-discList{
+  grid-column: 6/10;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-content:center;
+  height:90vh;
+  grid-gap: 1rem;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-content:center;
+  height:90vh;
+  grid-gap: 1rem;
+}
+
+h2{
+    color: white;
+    font-weight: 700;
+}

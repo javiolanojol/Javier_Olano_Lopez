@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "5fe04da169a4ee1d3c52adf3"
+  },
+  "title": "Brujerias",
+  "author": "Terry Pratchet",
+  "stock": 40,
+  "price": 99.99,
+  "genre": "Novela",
+  "img_alt": "portada del libro Brujerias",
+  "img_url": "../img/brujerias.jpg",
+  "label_publisher": "Anaya"
+},{
+  "_id": {
+    "$oid": "5fe1db75a7b34343f0ba8e9f"
+  },
+  "title": "El Quijote",
+  "author": "Miguel de Cervantes",
+  "stock": 20,
+  "price": 35.5,
+  "genre": "Novela",
+  "img_alt": "portada del libro El Quijote",
+  "img_url": "../img/quijote.jpg",
+  "label_publisher": "Alfaguara"
+},{
+  "_id": {
+    "$oid": "5fe1dc118617c9079c622401"
+  },
+  "title": "La historia interminable",
+  "author": "Michael Ende",
+  "genre": "Novela",
+  "label_publisher": "Anaya",
+  "img_url": "../img/historia.jpg",
+  "img_alt": "Portada del libro La historia interminable",
+  "price": 25,
+  "stock": 10
+},{
+  "_id": {
+    "$oid": "5fe1dc2ca7b34343f0ba8ea0"
+  },
+  "title": "Brujerias",
+  "author": "Terry Pratchet",
+  "stock": 40,
+  "price": 99.99,
+  "genre": "Novela",
+  "img_alt": "portada del libro Brujerias",
+  "img_url": "../img/brujerias.jpg",
+  "label_publisher": "Anaya"
+},{
+  "_id": {
+    "$oid": "5fe1dc32a7b34343f0ba8ea1"
+  },
+  "title": "El Quijote",
+  "author": "Miguel de Cervantes",
+  "stock": 20,
+  "price": 35.5,
+  "genre": "Novela",
+  "img_alt": "portada del libro El Quijote",
+  "img_url": "../img/quijote.jpg",
+  "label_publisher": "Alfaguara"
+},{
+  "_id": {
+    "$oid": "5fe1dc3aa7b34343f0ba8ea2"
+  },
+  "title": "La historia interminable",
+  "author": "Michael Ende",
+  "genre": "Novela",
+  "label_publisher": "Anaya",
+  "img_url": "../img/historia.jpg",
+  "img_alt": "Portada del libro La historia interminable",
+  "price": 25,
+  "stock": 10
+}]
